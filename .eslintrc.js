@@ -4,5 +4,10 @@ module.exports = {
   env: {
     node: true
   },
-  extends: ["plugin:flowtype/recommended"]
+  extends: [
+    "eslint:recommended",
+    "plugin:flowtype/recommended",
+    "prettier",
+    "prettier/flowtype"
+  ]
 };
