@@ -1,0 +1,31 @@
+{
+  "name": "hello-flow",
+  "version": "1.0.0",
+  "description": "Where I learn Flow",
+  "scripts": {
+    "build": "./build.sh",
+    "flow": "flow",
+    "flow-typed-install": "flow-typed install --skip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sei40kr/hello-flow.git"
+  },
+  "author": "Seong Yong-ju",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sei40kr/hello-flow/issues"
+  },
+  "homepage": "https://github.com/sei40kr/hello-flow#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.1.2",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^14.5.0",
+    "eslint-plugin-flowtype": "^2.40.1",
+    "flow-bin": "^0.62.0",
+    "flow-typed": "^2.2.3"
+  }
+}
