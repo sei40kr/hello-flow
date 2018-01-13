@@ -77,3 +77,9 @@ Install the type definitions of dependencies.
 ```sh
 yarn run flow-typed-install react
 ```
+
+## Integration with `prop-types`
+
+These Babel plugins compile type definitions to `PropTypes.*`.
+
+- [brigand/babel-plugin-flow-react-proptypes](https://github.com/brigand/babel-plugin-flow-react-proptypes)
