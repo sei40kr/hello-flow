@@ -78,8 +78,9 @@ Install the type definitions of dependencies.
 yarn run flow-typed-install react
 ```
 
-## Integration with `prop-types`
+## Integration with `PropTypes.*`
 
-These Babel plugins compile type definitions to `PropTypes.*`.
+Flow checks prop types passed to components statically.
+But if you want runtime-checker, consider these Babel plugins.
 
-- [brigand/babel-plugin-flow-react-proptypes](https://github.com/brigand/babel-plugin-flow-react-proptypes)
+* [brigand/babel-plugin-flow-react-proptypes](https://github.com/brigand/babel-plugin-flow-react-proptypes)
